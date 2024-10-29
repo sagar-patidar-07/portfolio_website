@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with small image, name, title, and navigation -->
+    <header>
+        <div class="header-left">
+            <img src="king.jpg" alt="Logo" class="small-logo">
+            <span class="name">Sagar <span class="surname">Patidar</span></span>
+            <h4 class="full-stack">Full Stack Web Developer</h4>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section-block">
+        <div class="home-container">
+            <img src="sagar.jpg" alt="Sagar's Photo" class="home-profile-pic-large">
+            <div class="home-text">
+                <h1>Hello, I'm <strong>Sagar Patidar</strong></h1>
+                <p>A passionate <span class="loop-text">coder, programmer, developer</span> exploring new technologies.</p>
+                <h2>Available on</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="facebook.jpg" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="insta.jpg" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/sagar-patidar-218ba428a/" target="_blank"><img src="linkdin.jpg" alt="LinkedIn"></a>
+                    <a href="https://github.com/sagar-patidar-07" target="_blank"><img src="github.png" alt="GitHub"></a>
+                    <a href="https://app.netlify.com/teams/sagar-patidar-07/sites" target="_blank"><img src="netlify.png" alt="Netlify"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-block">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>I am <strong>Sagar Patidar</strong>, I am Sagar Patidar, an MCA student at Jawaharlal Nehru University with a strong passion for technology and innovation.
+                    I completed my BSc in Computer Science at DAVV Indore and  Currently, I am pursuing an MCA degree
+                    I have experience with programming languages such as C, C++, Java, HTML, CSS, JavaScript, and SQL, along with a good understanding of data structures, algorithms, operating systems, and databases. I recently built a Sorting Visualizer website, which helped me refine my web development skills.
+                   
+                    Besides academics, I am a sports enthusiast who enjoys playing cricket and volleyball.
+                   
+                   My ultimate goal is to become a full-stack web developer, continuously learning and growing in the field.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-block">
+        <h1>Education</h1>
+        <ul>
+            <li><strong>Jawaharlal Nehru University</strong> (Sep 2023 - Current)<br>MCA, Computer Science, CGPA: 6.72/9.0</li>
+            <li><strong>Sanskar College of Professional Studies</strong> (Sep 2020 - Jun 2023)<br>BSc in Computer Science, Percentage: 79%</li>
+            <li><strong>Higher Secondary Education</strong><br>Gayatri Shiksha Niketan Hs.School, Percentage: 79%</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-block">
+        <h1>Projects</h1>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Book Recommendation System</h3>
+                <p>A web-based platform that provides personalized book recommendations using various filtering techniques.</p>
+                <a href="https://github.com/sagar-patidar-07/Book-Recommendation-system" target="_blank">GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Sorting Visualizer</h3>
+                <p>An interactive web app that visualizes sorting algorithms.</p>
+                <a href="https://github.com/sagar-patidar-07/SORTING_VISUALIZER" target="_blank">GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Anomaly Detection</h3>
+                <p>Machine learning-based system to detect anomalies in datasets using statistical methods.</p>
+                <a href="https://github.com/sagar-patidar-07/Anomaly_Detection-" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-block">
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <p><strong>Languages:</strong> C/C++, Java, Python, JavaScript/TypeScript, HTML/CSS, Latex, Node.js</p>
+            <p><strong>Frameworks:</strong> STL (C++), FastAPI, Pandas</p>
+            <p><strong>Database:</strong> MySQL, PostgreSQL, SQLite, MongoDB</p>
+            <p><strong>Developer Tools:</strong> Git/GitHub, Unix Shell, Linux, VS Code, Vim, Netlify, Postman</p>
+        </div>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact" class="section-block">
+        <h1>Contact Me</h1>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sagar Patidar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color:  #3c6d79; /* Background color for the whole site */
+}
+
+.section-block {
+  background-color: #d9eefb;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0A1828 ;
+  color: #ffffff;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.small-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 1.5rem;
+}
+
+.surname {
+  color: #FFCC00; /* Different color for the surname */
+}
+
+.full-stack {
+  font-size: 1rem;
+  margin-left: 10px;
+  color: #178582;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+.home-container {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  text-align: left;
+}
+
+/* Profile Picture */
+.profile-pic,
+.home-profile-pic-large {
+  width: 400px; /* Increased width */
+  height: 400px; /* Increased height */
+  border-radius: 50%; /* Ensures the image is circular */
+  margin-right: 50px;
+}
+
+
+.home-text h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.home-text p {
+  font-size: 1.2rem;
+}
+
+.loop-text {
+  font-size: 2rem;
+  color: #e82c2a; /* Distinct color for loop text */
+  font-weight: bold;
+  display: inline-block;
+}
+
+.social-icons a img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.profile-pic {
+  width: 300px; /* Increased width */
+  height: 300px; /* Increased height */
+  border-radius: 50%; /* Makes the image circular */
+  margin-right: 20px;
+}
+
+/* Education Section */
+#education ul {
+  list-style: none;
+  padding: 0;
+}
+
+#education li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+#education h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #acb9bf;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+/* Skills Section */
+#skills {
+  text-align: center;
+}
+
+.skills-container p {
+  font-size: 1.1rem;
+  line-height: 2;
+  display: block; /* Ensures each skill appears on a new line */
+  background-color: #acb9bf;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0; /* Added more space between each skill block */
+  width: 80%; /* Centers the block and gives it a narrower width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact Section */
+.contact-form {
+  background-color: #acb9bf;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 98%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 5px 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
